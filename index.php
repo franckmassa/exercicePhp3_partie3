@@ -1,6 +1,6 @@
 <?php
 $number1 = 100;
-$number2 = 1;
+$number2 = rand(1,100);
  ?>
  <!DOCTYPE html>
  <html lang="fr">
@@ -11,7 +11,7 @@ $number2 = 1;
    <body>
      <p>
 <?php
-//Décrémentation de la  premère variable tant qu'elle n'est pas inférieure ou égale à 10 
+//Décrémentation de la  premère variable tant qu'elle n'est pas inférieure ou égale à 10
 while($number1 >= 10){
   echo $number1 * $number2 . '<br/>';
   $number1--;
